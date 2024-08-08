@@ -14,12 +14,12 @@ import { Input } from '../ui/input';
 
 export function HomeSection() {
   return (
-    <section>
-      <div>
+    <section className="h-full">
+      <div className="h-full">
         <Menu />
-        <div className="mt-16">
+        <div className="h-full flex justify-center items-center">
           <Container>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div>
                 <h1 className="text-5xl mb-5">
                   Conquiste a vaga dos sonhos com IA
@@ -69,8 +69,8 @@ export function HomeSection() {
                   <div>
                     <span>Tecnologias</span>
                     <div className="grid w-full gap-2">
-                      <Textarea placeholder="Quais tecnologias possui conhecimento?" />
-                      <Button>Enviar</Button>
+                      <Textarea placeholder="Faça uma lista das tecnologias que você domina separando por vírgula. Exemplo: Java, Javascript, HTML, CSS" />
+                      <Button className="border border-black">Enviar</Button>
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ export function HomeSection() {
                   <div>
                     <div>
                       <span>Descrição</span>
-                      <Textarea/>
+                      <Textarea />
                     </div>
                   </div>
                 </div>

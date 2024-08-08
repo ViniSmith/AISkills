@@ -7,9 +7,9 @@ export function ResultSection() {
     <section>
       <div>
         <Menu />
-        <div className="mt-16">
+        <div>
           <Container>
-            <div className="grid grid-cols-2 w-full gap-24">
+            <div className="grid grid-cols-2 w-full gap-24 mt-[120px]">
               <div>
                 <h1 className="text-5xl mb-24">Seu roteiro de estudos</h1>
                 <div className="space-y-6">
@@ -32,7 +32,7 @@ export function ResultSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-8">
+              <div className="flex flex-col gap-8 mb-10">
                 <div>
                   <h3 className="text-xl font-medium mb-2">Módulo 1: Java</h3>
                   <hr className="mb-4 border-black" />
