@@ -37,6 +37,7 @@ Outros módulos...
 "
 
 Essa análise deve seguir rigorosamente o padrão de resposta especificado abaixo, portanto não inclua nenhuma informação adicional ou comentários fora do padrão de resposta. A resposta deve ser em formato JSON, mantendo os nomes das propriedades iguais, alterando apenas o resultado. Os locais onde você deve inserir a informação listada acima será marcada com dois colchetes "[]", identificando o inicio, qual informação deve ser incluida naquele local e o fim. Informações úteis sobre como deve ser feito a resposta será marcado com duas barras "//" e como comentários não são permitidos em JSON, não inclua eles na resposta. 
+IMPORTANTE: A RESPOSTA DEVE SER FORNECIDA SEMPRE EM PORTUGUES-BRASIL
 
 Formato de resposta:
 
