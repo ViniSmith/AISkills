@@ -22,12 +22,8 @@ export function ResultSection() {
   useEffect(() => {
     const data = searchParams.get('data');
     if (data) {
-      console.log(data);
-      const data2 = JSON.stringify(decodeURIComponent(data));
-      const data3 = JSON.parse(data2);
       const parsedData: Result = JSON.parse(decodeURIComponent(data));
       setResultData(parsedData);
-      console.log(parsedData);
     }
   }, [searchParams]);
 
@@ -52,7 +48,7 @@ export function ResultSection() {
           <Container>
             <div className="grid grid-cols-2 w-full gap-24 mt-[120px]">
               <div>
-                <h1 className="text-5xl mb-24">{resultData.level}</h1>
+                <h1 className="text-5xl mb-24">Seu roteiro de estudos</h1>
                 <div className="space-y-6">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="flex flex-col">
