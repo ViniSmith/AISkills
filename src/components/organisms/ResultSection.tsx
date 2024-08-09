@@ -1,5 +1,4 @@
 'use client';
-import { SuspenseBoundary } from '../atoms/SuspenseBoundary';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { Container } from '../atoms/Container';
@@ -42,7 +41,6 @@ export function ResultSection() {
   }
 
   return (
-    <SuspenseBoundary>
       <section>
         <div>
           <Menu />
@@ -99,6 +97,5 @@ export function ResultSection() {
           </div>
         </div>
       </section>
-    </SuspenseBoundary>
   );
 }
