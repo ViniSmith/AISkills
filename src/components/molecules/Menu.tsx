@@ -4,6 +4,7 @@ import nightmode from '@/assets/menuIcons/night-mode.png';
 import { Container } from '../atoms/Container';
 
 export function Menu() {
+
   return (
     <div className="bg-white  border-b border-black h-[60px] flex items-center fixed w-full">
       <Container>

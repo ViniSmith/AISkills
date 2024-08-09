@@ -1,7 +1,7 @@
+
 import type { Metadata } from "next";
 import { Karma } from "next/font/google";
 import "./globals.css";
-
 
 const karma = Karma({ subsets: ["latin"], weight: ["400"] });
 
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={karma.className}>{children}</body>
+       <body className={karma.className}>{children}</body>
     </html>
   );
 }
